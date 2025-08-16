@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  padding: unset;
+  margin: unset;
+  box-sizing: border-box;
+}
+
+:root {
+  --Blue-100: hsl(225, 100%, 94%);
+  --Blue-700: hsl(245, 75%, 52%);
+  --Blue-50: hsl(225, 100%, 98%);
+  --Gray-600: hsl(224, 23%, 55%);
+  --Blue-950: hsl(223, 47%, 23%);
+}
+
+body {
+  background-color: var(--blue-600);
+  background-image: url("images/pattern-background-desktop.svg");
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: var(--Blue-100);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.summary {
+  width: 400px;
+  height: 610px;
+  border-radius: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 0 0 15px #00000024;
+}
+@media (max-width: 767px) {
+  .summary {
+    width: 350px;
+  }
+}
+.summary img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.summary .info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 25px;
+}
+@media (max-width: 767px) {
+  .summary .info p {
+    padding: 0 17px;
+  }
+}
+.summary .info h1 {
+  font-weight: 900;
+  font-size: 27px;
+  margin: 15px 0;
+  color: var(--Blue-950);
+}
+.summary .info p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--Gray-600);
+  font-weight: 600;
+}
+.summary .btn {
+  width: 76%;
+}
+@media (max-width: 767px) {
+  .summary .btn {
+    width: 87%;
+  }
+}
+
+.summary .btn > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--Blue-50);
+  border-radius: 15px;
+  padding: 20px;
+}
+.summary .btn > div img {
+  width: 45px;
+  margin-right: 15px;
+}
+.summary .btn > div .btn-info {
+  display: flex;
+}
+.summary .btn > div .btn-info h4 {
+  color: var(--Blue-950);
+  font-weight: 900;
+  display: block;
+  flex-wrap: nowrap;
+}
+.summary .btn > div .btn-info p {
+  color: var(--Gray-600);
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.summary .btn > div a {
+  font-weight: 700;
+  transition: 0.4s;
+  font-size: 14px;
+}
+.summary .btn > div a:hover {
+  color: hsl(249.47deg 78.7% 66.86%);
+  text-decoration: none;
+}
+.summary .proceed {
+  color: #fff;
+  background-color: var(--Blue-700);
+  padding: 14px 90px;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 13px;
+  box-shadow: 0px 11px 20px 0px #00000052;
+  margin-top: 10px;
+  transition: 0.4s;
+}
+.summary .proceed:hover {
+  cursor: pointer;
+  background-color: hsl(249.47deg 78.7% 66.86%);
+}
+.summary .cancel {
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--Gray-600);
+  padding-bottom: 30px;
+  padding-top: 16px;
+  transition: 0.4s;
+}
+.summary .cancel:hover {
+  color: var(--Blue-950);
+  cursor: pointer;
+}
