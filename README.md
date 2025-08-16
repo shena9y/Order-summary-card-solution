@@ -14,8 +14,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Order summary card solution](https://www.frontendmentor.io/challenges/order-summary-component)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Order summary card solution](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+- Live Site URL: [Live Site](https://shena9y.github.io/Order-summary-card-solution/)
 
 ### Built with
 
