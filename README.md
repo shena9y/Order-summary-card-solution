@@ -1,29 +1,45 @@
-# Frontend Mentor - Order summary card solution
+# Order Summary Card — Frontend Mentor Solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
+A solution to the **Order summary card** challenge from [Frontend Mentor](https://www.frontendmentor.io). It's a compact payment card component for a music streaming subscription, showing an annual plan with options to change the plan, proceed to payment, or cancel the order.
 
-### The challenge
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Challenge-3e54a3)
 
-Users should be able to:
+## ✨ Features
 
-- See hover states for interactive elements
+- 🎵 Music subscription order summary card component
+- 🖼️ Hero illustration and decorative SVG background patterns
+- 💳 Plan row with music icon, price ($59.99/year) and "Change" link
+- ✅ "Proceed to Payment" primary action and "Cancel Order" secondary action
+- 🎯 Hover / active states styled per the design spec
+- 📱 Responsive for desktop and mobile viewports
 
-### Screenshot
+## 🛠️ Tech Stack
 
-![Order summary card solution](images/screenshot.png)
+- **HTML5** — semantic markup
+- **CSS3** — flexbox, background images, transitions
 
-### Links
+## 📂 Project Structure
 
-- Solution URL: [Order summary card solution](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
-- Live Site URL: [Live Site](https://shena9y.github.io/Order-summary-card-solution/)
+```
+├── index.html    # Main markup
+├── style.css     # All styles
+├── images/       # Illustrations, icons, background patterns
+├── design/       # Frontend Mentor design references
+└── preview.jpg   # Challenge preview
+```
 
-### Built with
+## 🚀 Getting Started
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+No build step required:
 
-## Author
+```bash
+git clone https://github.com/shena9y/Order-summary-card-solution.git
+cd Order-summary-card-solution
+start index.html   # or open it in any browser
+```
 
-- Website - [Mohammed Hamdy](https://github.com/shena9y)
-- Frontend Mentor - [@shena9y](https://www.frontendmentor.io/profile/shena9y)
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
